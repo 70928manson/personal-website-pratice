@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+
+* {
+    box-sizing: border-box;
+}
 body{
     font-family: "italic", "Roboto", sans-serif;
 }
@@ -54,6 +58,8 @@ body{
     max-width: 1920px;
     margin: 0 auto;
 }
+
+
 .header{
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
     background-position: center center;
@@ -94,6 +100,7 @@ body{
     justify-content: space-between;
 }
 
+
 .about{
     display: flex;
     flex-direction: column;
@@ -103,6 +110,7 @@ body{
 }
 .about h2{
     margin-top: 56px;
+    margin-bottom: 40px;
     font-size: 64px;
     line-height: 84px;
 }
@@ -141,6 +149,7 @@ body{
     left: -32px;
 }
 
+
 .brand{
     background-color: #000;
     color: white;
@@ -173,4 +182,62 @@ body{
 }
 .brand-pic-two{
     padding-right: 24px;
+}
+
+
+.works{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.works h2{
+    font-size: 64px;
+    line-height: 84px;
+}
+.works ul{
+    margin-top: 16px;
+    margin-bottom: 56px;
+}
+.works ul li{
+    font-size: 20px;
+    line-height: 30px;
+}
+.work-imgs{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.work-item{
+    margin-bottom: 48px;
+    text-align: center;
+}
+.work-item p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.contact{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.contact h2{
+    font-size: 64px;
+    line-height: 84px;
+}
+.contact ul{
+    font-size: 24px;
+    line-height: 36px;
+}
+.contact ul li{
+    margin-top: 16px;
 }
